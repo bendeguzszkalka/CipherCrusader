@@ -1,0 +1,4 @@
+# requirements.txt for the password manager 'CipherCrusader.py'
+maskpass==0.3.7
+pycryptodome==3.16.0
+pyperclip==1.8.2
