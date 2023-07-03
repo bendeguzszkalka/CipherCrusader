@@ -1,5 +1,5 @@
-database.db.enc
-database.db
+*.db.enc
+*.db
 test.py
 notes.txt
 venv
