@@ -284,8 +284,6 @@ if __name__ == "__main__":
             clipboard.copy(result)
             print("Copied to clipboard.")
 
-            last_keypress = time.time()
-
         # Add command to add an entry to the database
         elif command == "add":
 
@@ -444,16 +442,12 @@ if __name__ == "__main__":
             print("'exit' - exits the program")
             print("'help' - displays this message\n")
 
-            last_keypress = time.time()
-
         # Default answer to not valid commands
         else:
 
             if command != "":
                 print(
                     "This is not a valid command, use the 'help' command for more information.")
-
-            last_keypress = time.time()
 
         if (os.path.exists(password_database.database_name + ".db")):
             db.close()
